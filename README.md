@@ -7,4 +7,4 @@ Tips:
 3) Multiple recursive runs with different alignments can be used for multilocus trees.
 4) Indel sites are ignored. The script will let you know how many of them your alignment file contains.
 5) Try not to use overly complicated sequence names. Symbols like "()", "," or ":" can mess with the parsing blocks.
-6) If your Newick tree contains node labels you should tell the script what they are. Otherwise they will be marked as "label" by default, which you can then manually change in the output file.
+6) If your Newick tree contains node labels like bootstrap values you should tell the script what they are. Otherwise they will be marked as "label" by default, which you can then manually change in the output file.
