@@ -1,5 +1,4 @@
 # SOPhT
-Substitutions On Phylogenetic Three
 SOPhT (Substitutions On Phylogenetic Three) ia a simple all-in-one Python 3 sctipt for tracing gene's substitution distribution over a phylogenetic tree. Just launch the script with your Python 3 interpreter of choice and you will pe prompted to enter the names of alignment, tree and output tree files in succession. If all goes well the output file will be a Nexus tree file with gene substitution sount at each node. The label is created from the alignment name, substitution count.
 Tips:
 1) Try not to overwrite the original file. Just in case.
