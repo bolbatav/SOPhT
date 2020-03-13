@@ -7,3 +7,9 @@ Tips:
 4) Indel sites are ignored. The script will let you know how many of them your alignment file contains.
 5) Try not to use overly complicated sequence names. Symbols like "()", "," or ":" can mess with the parsing blocks.
 6) If your Newick tree contains node labels like bootstrap values you should tell the script what they are. Otherwise they will be marked as "label" by default, which you can then manually change in the output file.
+
+Changes in 0.2:
+1) The script no longer works in interactive mode. Instead, it takes arguments like most of Linux applications. Use -h to see the options.
+2) The script no longer messes up alignment names if there are dots in parent folder names (eg hidden directories).
+3) The script now saves the original Nexus file structure.
+4) Multiple runs with the same alignment name are now prevented.
