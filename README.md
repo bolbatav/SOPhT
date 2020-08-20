@@ -8,6 +8,10 @@ Tips:
 5) Try not to use overly complicated sequence names. Symbols like "()", "," or ":" can mess with the parsing blocks.
 6) If your Newick tree contains node labels like bootstrap values you should tell the script what they are. Otherwise they will be marked as "label" by default, which you can then manually change in the output file.
 
+# Changes in 0.3:
+1) The script now warns you if sequence names in alignment and tree files don't match instead of just assigning zeros to node labels.
+2) Tou can now set the gene name with -g/--gene option if you are not satisfied with the one generated from alignment file name.
+
 # Changes in 0.2:
 1) The script no longer works in interactive mode. Instead, it takes arguments like most Linux applications. Use -h to see the options.
 2) The script no longer messes up alignment names if there are dots in parent folder names (eg hidden directories).
